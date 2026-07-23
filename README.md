@@ -1,5 +1,3 @@
-Odin Recipes
-About the Project:
 Odin Recipes is a beginner HTML project from The Odin Project.
 The goal of this project is to build a simple, multi-page recipe website using HTML. The website will contain a main page with links to several individual recipe pages.
 
