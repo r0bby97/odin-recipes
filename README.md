@@ -1,32 +1,44 @@
-Odin Recipes is a beginner HTML project from The Odin Project.
-The goal of this project is to build a simple, multi-page recipe website using HTML. The website will contain a main page with links to several individual recipe pages.
+# Odin Recipes
 
-Project Status:
-This project is currently in the planning stage. Development has not started yet.
+A small recipe website built for The Odin Project Foundations curriculum. The project practices semantic HTML, relative links, images, lists and basic CSS styling.
 
-Planned Features:
-- A main index page displaying a list of recipes
-- Three individual recipe pages
-- A photograph of the finished dish on each recipe page
-- A short description of each recipe
-- An unordered list of required ingredients
-- An ordered list of cooking instructions
-- inks from the home page to each recipe
-- A link from each recipe page back to the home page
+[View the live demo](https://r0bby97.github.io/odin-recipes/)
 
-Skills Demonstrated
-By completing this project, I will demonstrate my ability to:
-- Create properly structured HTML documents
-- Use headings, paragraphs, links, images, and lists
-- Connect multiple pages using relative links
-- Organize files and directories for a website
-- Use Git and GitHub to manage and document a project
-- Write clear and meaningful commit messages
+## Recipes
 
-Technologies:
-- HTML5
-- Git
-- GitHub
+- Spaghetti alla Carbonara
+- Spaghetti Bolognese
+- Spaghetti Aglio e Olio
 
-Future Improvements:
-After learning CSS, I plan to revisit this project and improve its layout, colors, typography, and overall visual design.
+The home page links to individual recipe pages with dish images, ingredients and cooking instructions.
+
+## Built with
+
+HTML5 and CSS3, with Git and GitHub for version control. No framework, package installation or build step is required.
+
+## Run locally
+
+Open `index.html` in your browser, or run the following command from the project folder:
+
+```bash
+python3 -m http.server 8000
+```
+
+Visit [localhost:8000](http://localhost:8000).
+
+## Structure
+
+- `index.html`: recipe index.
+- `recipes/`: individual recipe pages.
+- `images/`: dish images.
+- `style.css`: shared styling.
+
+## Status and learning goals
+
+The recipe pages and CSS styling are implemented. This repository documents an early frontend learning project, including multi-page navigation, file organization and reusable styling.
+
+Possible next steps include refining the responsive layout and checking accessibility across the recipe pages.
+
+## Acknowledgment
+
+Created as part of [The Odin Project](https://www.theodinproject.com/).
